@@ -19,6 +19,10 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* COMMONS */
 .flex {
     display: flex;
@@ -38,15 +42,26 @@ a {
 .main-content {
     width: 100%;
     height: calc(100% - 100px);
-    /* DEBUG */
-    background-color: lightcoral;
 }
 
 /* LEFT SIDEBAR */
 
 .left {
-    width: 200px;
-    background-color: aqua;
+    width: 220px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    margin: 1rem 0.7rem;
+    color: gray;
+}
+
+.container img {
+    width: 80%;
 }
 
 /* RIGHT SECTION */
@@ -72,6 +87,37 @@ a {
     border-radius: 25px;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* LIST SECTION */
+.list li{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.list li i {
+    font-size: 1.6rem;
+    margin-right: .4rem;
+}
+
+.playlist {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+/* DOWNLOAD SECTION */
+.download {
+    padding: .6rem 0;
+}
+
+.account {
+    padding: 0.8rem 0;
+    color: white;
+}
+
+.account i {
+    font-size: 2rem;
+    vertical-align: middle;
 }
 /* FOOTER CONTENT */
 
