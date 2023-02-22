@@ -6,6 +6,10 @@
     .right {
         width: calc(100% - 50px);
     }
+
+    .upgrade {
+        width: calc(100% - 50px);
+    }
     .logo {
         display: none;
     }
@@ -14,6 +18,9 @@
         display: block;
     }
 
+    .border-left span {
+        display: none;
+    }
     .list li span {
         display: none;
     }
