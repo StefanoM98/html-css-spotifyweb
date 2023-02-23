@@ -44,4 +44,10 @@
     .account span {
         display: none;
     }
+
+    /* RIGHT SECTION */
+
+    .lists li {
+        width: calc(100% / 4);
+    }
 }

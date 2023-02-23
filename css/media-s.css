@@ -2,4 +2,12 @@
     .lists {
         height: 200px;
     }
+
+    .lists li {
+        width: calc(100% / 3);
+    }
+
+    .col {
+        width: calc(100% / 2);
+    }
 }
