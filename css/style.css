@@ -33,8 +33,6 @@ ul {
 .wrapper {
     width: 100%;
     height: 100vh;
-    /* DEBUG */
-    background-color: lightblue;
 }
 
 /* MAIN CONTENT */
@@ -63,6 +61,7 @@ ul {
     width: 30px;
 }
 
+
 .logo {
     width: 80%;
     display: block;
@@ -90,9 +89,17 @@ ul {
     vertical-align: middle;
 }
 
+.container span:hover {
+    color: white;
+}
+
 .playlist {
     text-transform: uppercase;
     padding-top: 10px;
+    color: white;
+}
+
+.list li:hover {
     color: white;
 }
 
@@ -105,6 +112,9 @@ ul {
     padding: .6rem 0;
 }
 
+.download:hover {
+    color: white;
+}
 
 .account {
     padding: .8rem 0;
@@ -146,6 +156,11 @@ ul {
     text-transform: uppercase;
 }
 
+.title-upgrade:hover {
+    padding: 1.4rem;
+    border-radius: 30px;
+}
+
 .main {
     padding-top:100px;
 }
@@ -159,6 +174,10 @@ ul {
 .lists li {
     font-weight: 800;
     padding: 0 20px;
+}
+
+.lists li:hover {
+    color: white;
 }
 
 /* CARD CONTENT */
@@ -186,6 +205,11 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+}
+
+img:hover {
+    opacity: 0.3;
 }
 
 
@@ -243,9 +267,6 @@ ul {
     color: grey;
 }
 
-.fa-heart {
-    padding: 0 20px;
-}
 
 .font-awesome i:hover {
     color: white;
@@ -253,8 +274,7 @@ ul {
 
 /* CENTRAL FOOTER */
 .central-footer {
-    /* background-color: lightcyan; */
-    flex-grow: 1;
+    width: 50%;
 }
 
 .cta {
@@ -263,12 +283,12 @@ ul {
 
 .font-awesome-central {
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: grey;
 }
 
 .font-awesome-central i {
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .font-awesome-central i:hover {
@@ -289,7 +309,7 @@ ul {
 .bar {
     margin: 0 20px;
     height: 4px;
-    width: 30vw;
+    width: 50%;
     background-color: grey;
     border-radius: 30px;
 }
@@ -314,12 +334,12 @@ ul {
 
 
 .ball:hover {
-
     background-color: #adff2f;
 }
 
 /* RIGHT FOOTER */
 .right-footer {
-    background-color: lightsalmon;
     width: 25%;
+    align-items: center;
 }
+

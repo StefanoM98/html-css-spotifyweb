@@ -10,4 +10,8 @@
     .col {
         width: calc(100% / 2);
     }
+
+    .ball {
+        display: none;
+    }
 }
