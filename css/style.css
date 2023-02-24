@@ -72,7 +72,6 @@ ul {
     width: 30px;
 }
 
-
 /* LIST SECTION */
 .list li{
     font-size: 1rem;
@@ -107,6 +106,7 @@ ul {
     font-size: 2rem;
     vertical-align: middle;
 }
+
 /* DOWNLOAD SECTION */
 .download {
     padding: .6rem 0;
@@ -133,7 +133,6 @@ ul {
     overflow-y: auto;
     background-color: #141922;
 }
-
 
 .upgrade {
     width: calc(100% - 220px);
@@ -170,7 +169,6 @@ ul {
     color: grey;
 }
 
-
 .lists li {
     font-weight: 800;
     padding: 0 20px;
@@ -197,6 +195,7 @@ ul {
 
 .col {
     width: calc(100% / 6);
+    position: relative;
 }    
 
 .card {
@@ -205,13 +204,25 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
 }
 
-img:hover {
+.play {
+    width: 30%;
+    position: absolute;
+    top: 22%;
+    right: 34%;
+    display: none;
+}
+
+
+.hover:hover .play {
+    display: inline;
+}
+
+.album:hover {
+    display: inline;
     opacity: 0.3;
 }
-
 
 .title h4{
     color: white; 
@@ -226,6 +237,8 @@ img:hover {
     width: 165px;
     height: 165px;
     border-radius: 50%;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
 }
 
@@ -294,6 +307,7 @@ img:hover {
 .font-awesome-central i:hover {
     color: white;
 }
+
 /* PLAYER SECTION */
 .player {
     height: 50%;
